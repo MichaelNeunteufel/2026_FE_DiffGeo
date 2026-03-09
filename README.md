@@ -1,34 +1,11 @@
-# JupyterLite Demo
+# Tutorial Notebooks for Lecture "Finite Elements for Differential Geometry"
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://ngsolve.github.io/jupyterlite_ngsolve/lab?path=poisson.ipynb)
+These jupyter notebooks are supplementary material for hands-on activities in a lecture at TU Wien in the summer term 2026.
 
+To run the files locally you have to install the open-source finite element library [NGSolve](https://ngsolve.org) (see the [installation instructions](https://docu.ngsolve.org/latest/)). Then open content/index_lecture.ipynb to start. The current version of the script can be found [here](content/FE_DiffGeo_current.pdf).
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+You can also run the files directly in the browser
 
-## ✨ Try it in your browser ✨
+➡️ **https://michaelneunteufel.github.io/2026_FE_DiffGeo/lab?path=index_lecture.ipynb**
 
-➡️ **https://ngsolve.github.io/jupyterlite_ngsolve/lab?path=poisson.ipynb**
-
-## Setting up your own NGSolve - jupyterlite demos:
-
-1. Sign in to your github account
-   
-3. Click on 'Use this template' to create your new, public repository
-   
-4. Enable 'github-pages from actions':
-
-   Settings -> Pages -> Source: 'github actions'
-
-5. Click on 'Actions', and allow workflow actions (maybe not necessary ?)
-
-6. Fill the 'contents' folder with your notebooks
-
-7. Adjust links to your github pages website
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
-
+thanks to JupyterLite [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.readthedocs.io/en/latest/index.html) and [JupyterLite for NGSolve](https://github.com/mhochsteger/jupyterlite_ngsolve).
